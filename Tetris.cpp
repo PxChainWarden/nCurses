@@ -10,8 +10,6 @@ wstring TetrisBlocks[7];
 int TetrisWidth = 12;
 int TetrisHeight = 18;
 unsigned char  *pScreen = nullptr;
-int nScreenHeight;
-int nScreenWidth;
 
 int kbhit(void)
 {
